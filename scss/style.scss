@@ -129,6 +129,11 @@ span {
 
 .testimonial-1 {
   @include testiClrStyle($Moderate-violet, $White, $Light-gray, $Light-gray);
+
+  background-image: url('../images/bg-pattern-quotation.svg');
+  background-position: 90% top;
+  background-repeat: no-repeat;
+
   .avatar {
     background-image: url('../images/image-daniel.jpg');
   }

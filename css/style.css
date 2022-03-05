@@ -82,6 +82,9 @@ span {
 /*=====testimonial-style-color======*/
 .testimonial-1 {
   background-color: #7541c8;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-position: 90% top;
+  background-repeat: no-repeat;
 }
 .testimonial-1 .testi-heading .profile h2 {
   color: #cfcfcf;
