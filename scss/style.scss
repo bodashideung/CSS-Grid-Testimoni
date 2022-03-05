@@ -31,7 +31,6 @@ $font-family: 'Barlow Semi Condensed', sans-serif;
   padding: 2rem;
   border-radius: 10px;
 
-
   .testi-heading {
     display: flex;
     justify-content: flex-start;
@@ -49,7 +48,7 @@ $font-family: 'Barlow Semi Condensed', sans-serif;
     }
 
     .profile {
-      h3 {
+      h2 {
         font-size: 0.7rem;
       }
 
@@ -63,7 +62,7 @@ $font-family: 'Barlow Semi Condensed', sans-serif;
   .testi-review {
     text-align: left;
 
-    h2 {
+    h1 {
       font-weight: 600;
       margin-bottom: 1rem;
       font-size: 1.1rem;
@@ -81,11 +80,11 @@ $font-family: 'Barlow Semi Condensed', sans-serif;
 @mixin testiClrStyle($bg-color: $Moderate-violet, $heading-color: white, $profile-clr: $Light-gray, $pharagraph-color: $Light-gray-low) {
   background-color: $bg-color;
 
-  .testi-heading .profile h3 {
+  .testi-heading .profile h2 {
     color: $profile-clr;
   }
 
-  .testi-review h2 {
+  .testi-review h1 {
     color: $heading-color;
   }
 
@@ -129,31 +128,31 @@ span {
 /*=====testimonial-style-color======*/
 
 .testimonial-1 {
-  @include testiClrStyle($Moderate-violet);
+  @include testiClrStyle($Moderate-violet, $White, $Light-gray, $Light-gray);
   .avatar {
     background-image: url('../images/image-daniel.jpg');
   }
 }
 .testimonial-2 {
-  @include testiClrStyle($Very-dark-grayish-blue, $White);
+  @include testiClrStyle($Very-dark-grayish-blue, $White, $Light-gray, $Light-gray);
   .avatar {
     background-image: url('../images/image-jonathan.jpg');
   }
 }
 .testimonial-3 {
-  @include testiClrStyle($White, $Very-dark-grayish-blue, $Very-dark-grayish-blue, $Light-gray);
+  @include testiClrStyle($White, $Very-dark-grayish-blue, $Very-dark-grayish-blue, hsla(0, 0%, 70%));
   .avatar {
     background-image: url('../images/image-jeanette.jpg');
   }
 }
 .testimonial-4 {
-  @include testiClrStyle($Very-dark-blackish-blue);
+  @include testiClrStyle($Very-dark-blackish-blue, $White, $Light-gray, $Light-gray);
   .avatar {
     background-image: url('../images/image-patrick.jpg');
   }
 }
 .testimonial-5 {
-  @include testiClrStyle($White, $Very-dark-grayish-blue, $Very-dark-grayish-blue, $Light-gray);
+  @include testiClrStyle($White, $Very-dark-grayish-blue, $Very-dark-grayish-blue, hsla(0, 0%, 70%));
   .avatar {
     background-image: url('../images/image-kira.jpg');
   }
@@ -180,7 +179,7 @@ span {
       margin: 0;
       gap: 1rem;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: .8fr .8fr;
+      grid-template-rows: 0.8fr 0.8fr;
       //   border: 5px solid red;
 
       .testimonial {

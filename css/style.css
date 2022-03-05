@@ -57,7 +57,7 @@ span {
   background-position: center;
   background-size: cover;
 }
-.testimonial .testi-heading .profile h3 {
+.testimonial .testi-heading .profile h2 {
   font-size: 0.7rem;
 }
 .testimonial .testi-heading .profile span {
@@ -67,7 +67,7 @@ span {
 .testimonial .testi-review {
   text-align: left;
 }
-.testimonial .testi-review h2 {
+.testimonial .testi-review h1 {
   font-weight: 600;
   margin-bottom: 1rem;
   font-size: 1.1rem;
@@ -83,14 +83,14 @@ span {
 .testimonial-1 {
   background-color: #7541c8;
 }
-.testimonial-1 .testi-heading .profile h3 {
+.testimonial-1 .testi-heading .profile h2 {
   color: #cfcfcf;
 }
-.testimonial-1 .testi-review h2 {
+.testimonial-1 .testi-review h1 {
   color: white;
 }
 .testimonial-1 .testi-review p {
-  color: rgba(207, 207, 207, 0.5);
+  color: #cfcfcf;
 }
 .testimonial-1 .avatar {
   background-image: url("../images/image-daniel.jpg");
@@ -99,14 +99,14 @@ span {
 .testimonial-2 {
   background-color: #48556a;
 }
-.testimonial-2 .testi-heading .profile h3 {
+.testimonial-2 .testi-heading .profile h2 {
   color: #cfcfcf;
 }
-.testimonial-2 .testi-review h2 {
+.testimonial-2 .testi-review h1 {
   color: white;
 }
 .testimonial-2 .testi-review p {
-  color: rgba(207, 207, 207, 0.5);
+  color: #cfcfcf;
 }
 .testimonial-2 .avatar {
   background-image: url("../images/image-jonathan.jpg");
@@ -115,14 +115,14 @@ span {
 .testimonial-3 {
   background-color: white;
 }
-.testimonial-3 .testi-heading .profile h3 {
+.testimonial-3 .testi-heading .profile h2 {
   color: #48556a;
 }
-.testimonial-3 .testi-review h2 {
+.testimonial-3 .testi-review h1 {
   color: #48556a;
 }
 .testimonial-3 .testi-review p {
-  color: #cfcfcf;
+  color: #b3b3b3;
 }
 .testimonial-3 .avatar {
   background-image: url("../images/image-jeanette.jpg");
@@ -131,14 +131,14 @@ span {
 .testimonial-4 {
   background-color: #19212e;
 }
-.testimonial-4 .testi-heading .profile h3 {
+.testimonial-4 .testi-heading .profile h2 {
   color: #cfcfcf;
 }
-.testimonial-4 .testi-review h2 {
+.testimonial-4 .testi-review h1 {
   color: white;
 }
 .testimonial-4 .testi-review p {
-  color: rgba(207, 207, 207, 0.5);
+  color: #cfcfcf;
 }
 .testimonial-4 .avatar {
   background-image: url("../images/image-patrick.jpg");
@@ -147,14 +147,14 @@ span {
 .testimonial-5 {
   background-color: white;
 }
-.testimonial-5 .testi-heading .profile h3 {
+.testimonial-5 .testi-heading .profile h2 {
   color: #48556a;
 }
-.testimonial-5 .testi-review h2 {
+.testimonial-5 .testi-review h1 {
   color: #48556a;
 }
 .testimonial-5 .testi-review p {
-  color: #cfcfcf;
+  color: #b3b3b3;
 }
 .testimonial-5 .avatar {
   background-image: url("../images/image-kira.jpg");
